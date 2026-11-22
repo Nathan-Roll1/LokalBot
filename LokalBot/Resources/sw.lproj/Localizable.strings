@@ -2627,3 +2627,9 @@
 "Runs your own Gemini CLI with its tools turned off. Sign in to gemini in Terminal first; LokalBot never sees your Google sign-in." = "Huendesha Gemini CLI yako mwenyewe huku zana zake zikiwa zimezimwa. Ingia kwenye gemini katika Terminal kwanza; LokalBot haioni kamwe maelezo yako ya kuingia kwenye Google.";
 "Signed in" = "Umeingia";
 "LokalBot stops reading coding agent sessions and deletes what it saved. Claude Code, Codex, Antigravity, and T3 Code keep their own session files." = "LokalBot huacha kusoma vipindi vya mawakala wa msimbo na kufuta ilichohifadhi. Claude Code, Codex, Antigravity na T3 Code hubaki na faili zao za vipindi.";
+"New default models available" = "Miundo mipya chaguomsingi inapatikana";
+"Upgrade %@ to LokalBot's new fine-tuned defaults (%@). Your current models stay active until the download finishes." = "Boresha %@ hadi miundo mipya chaguomsingi iliyoboreshwa ya LokalBot (%@). Miundo yako ya sasa inaendelea kufanya kazi hadi upakuaji ukamilike.";
+"Switch %@ to LokalBot's new fine-tuned defaults. They are already downloaded." = "Badilisha %@ hadi miundo mipya chaguomsingi iliyoboreshwa ya LokalBot. Tayari imepakuliwa.";
+"Upgrade & Download" = "Boresha na Pakua";
+"Switch defaults" = "Badilisha chaguomsingi";
+"LokalBot default models" = "Miundo chaguomsingi ya LokalBot";

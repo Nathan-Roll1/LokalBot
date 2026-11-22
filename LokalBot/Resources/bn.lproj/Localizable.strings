@@ -2627,3 +2627,9 @@
 "Runs your own Gemini CLI with its tools turned off. Sign in to gemini in Terminal first; LokalBot never sees your Google sign-in." = "আপনার নিজের Gemini CLI এর টুলগুলি বন্ধ রেখে চালায়। আগে Terminal-এ gemini-তে সাইন ইন করুন; LokalBot কখনো আপনার Google সাইন-ইন দেখে না।";
 "Signed in" = "সাইন ইন করা হয়েছে";
 "LokalBot stops reading coding agent sessions and deletes what it saved. Claude Code, Codex, Antigravity, and T3 Code keep their own session files." = "LokalBot কোডিং এজেন্ট সেশন পড়া বন্ধ করে এবং যা সংরক্ষণ করেছিল তা মুছে ফেলে। Claude Code, Codex, Antigravity ও T3 Code নিজেদের সেশন ফাইল নিজেরাই রাখে।";
+"New default models available" = "নতুন ডিফল্ট মডেল উপলব্ধ";
+"Upgrade %@ to LokalBot's new fine-tuned defaults (%@). Your current models stay active until the download finishes." = "%@-কে LokalBot-এর নতুন ফাইন-টিউন করা ডিফল্ট মডেলে আপগ্রেড করুন (%@)। ডাউনলোড শেষ না হওয়া পর্যন্ত আপনার বর্তমান মডেলগুলি চালু থাকবে।";
+"Switch %@ to LokalBot's new fine-tuned defaults. They are already downloaded." = "%@-কে LokalBot-এর নতুন ফাইন-টিউন করা ডিফল্ট মডেলে পরিবর্তন করুন। এগুলি ইতিমধ্যেই ডাউনলোড করা আছে।";
+"Upgrade & Download" = "আপগ্রেড ও ডাউনলোড";
+"Switch defaults" = "ডিফল্ট পরিবর্তন করুন";
+"LokalBot default models" = "LokalBot ডিফল্ট মডেল";

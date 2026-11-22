@@ -345,6 +345,7 @@ struct AppSettings: Codable, Equatable {
 
     var summarizerBackend: SummarizerBackend = .builtIn
     var builtInModelID: String = ModelCatalog.defaultSummarizationID
+    var dismissedDefaultModelUpgradeKey: String = ""
     var customBuiltInModels: [ModelCatalog.Entry] = []
     var ollamaBaseURL: String = "http://localhost:11434"
     var ollamaModel: String = ""
@@ -752,6 +753,7 @@ struct AppSettings: Codable, Equatable {
         case excludedApps
         case summarizerBackend
         case builtInModelID
+        case dismissedDefaultModelUpgradeKey
         case customBuiltInModels
         case ollamaBaseURL
         case ollamaModel
@@ -978,6 +980,7 @@ struct AppSettings: Codable, Equatable {
         try c.encode(excludedApps, forKey: .excludedApps)
         try c.encode(summarizerBackend, forKey: .summarizerBackend)
         try c.encode(builtInModelID, forKey: .builtInModelID)
+        try c.encode(dismissedDefaultModelUpgradeKey, forKey: .dismissedDefaultModelUpgradeKey)
         try c.encode(customBuiltInModels, forKey: .customBuiltInModels)
         try c.encode(ollamaBaseURL, forKey: .ollamaBaseURL)
         try c.encode(ollamaModel, forKey: .ollamaModel)
@@ -1210,6 +1213,8 @@ struct AppSettings: Codable, Equatable {
         excludedApps = decode(.excludedApps, defaults.excludedApps)
         summarizerBackend = decode(.summarizerBackend, defaults.summarizerBackend)
         builtInModelID = decode(.builtInModelID, defaults.builtInModelID)
+        dismissedDefaultModelUpgradeKey = decode(
+            .dismissedDefaultModelUpgradeKey, defaults.dismissedDefaultModelUpgradeKey)
         customBuiltInModels = decode(.customBuiltInModels, defaults.customBuiltInModels)
         ollamaBaseURL = decode(.ollamaBaseURL, defaults.ollamaBaseURL)
         ollamaModel = decode(.ollamaModel, defaults.ollamaModel)

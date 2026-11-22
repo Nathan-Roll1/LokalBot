@@ -2627,3 +2627,9 @@
 "Runs your own Gemini CLI with its tools turned off. Sign in to gemini in Terminal first; LokalBot never sees your Google sign-in." = "Ejecuta tu propio Gemini CLI con sus herramientas desactivadas. Inicia sesión primero en gemini desde Terminal; LokalBot nunca ve tu inicio de sesión de Google.";
 "Signed in" = "Sesión iniciada";
 "LokalBot stops reading coding agent sessions and deletes what it saved. Claude Code, Codex, Antigravity, and T3 Code keep their own session files." = "LokalBot deja de leer las sesiones de agentes de código y elimina lo que guardó. Claude Code, Codex, Antigravity y T3 Code conservan sus propios archivos de sesión.";
+"New default models available" = "Nuevos modelos predeterminados disponibles";
+"Upgrade %@ to LokalBot's new fine-tuned defaults (%@). Your current models stay active until the download finishes." = "Actualiza %@ a los nuevos modelos predeterminados ajustados de LokalBot (%@). Tus modelos actuales seguirán activos hasta que termine la descarga.";
+"Switch %@ to LokalBot's new fine-tuned defaults. They are already downloaded." = "Cambia %@ a los nuevos modelos predeterminados ajustados de LokalBot. Ya están descargados.";
+"Upgrade & Download" = "Actualizar y descargar";
+"Switch defaults" = "Cambiar predeterminados";
+"LokalBot default models" = "Modelos predeterminados de LokalBot";
